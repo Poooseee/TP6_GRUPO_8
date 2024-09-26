@@ -12,6 +12,8 @@
     <form id="form1" runat="server">
         <div>
             <asp:Label ID="lblInicio" runat="server" Text="Inicio"></asp:Label>
+            <br />
+            <asp:HyperLink ID="hlSeleccionarProductos" runat="server" NavigateUrl="~/SeleccionarProductos.aspx">Seleccionar Productos</asp:HyperLink>
         </div>
     </form>
 </body>

@@ -12,6 +12,9 @@
     <form id="form1" runat="server">
         <div>
             <asp:Label ID="lblProductos" runat="server" Text="Productos"></asp:Label>
+            <br />
+            <asp:GridView ID="grdProductos" runat="server" AllowPaging="True">
+            </asp:GridView>
         </div>
     </form>
 </body>
