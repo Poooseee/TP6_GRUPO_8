@@ -37,14 +37,12 @@ namespace TP6_GRUPO8.Clases
             }
         }
 
-        
-
-        /*public int ejecutarConsulta(string consultaSQL)
+        public int ejecutarConsulta(string consultaSQL)
         {
             SqlConnection conexion = new SqlConnection(rutaBdNeptuno);
             conexion.Open();
             SqlCommand cmd = new SqlCommand(consultaSQL, conexion);
             //completar la funcion
-        }*/
+        }
     }
 }
