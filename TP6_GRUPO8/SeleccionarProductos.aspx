@@ -10,7 +10,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <asp:GridView ID="GridView1" runat="server" AllowPaging="True" CellPadding="4" ForeColor="#333333" GridLines="None" Height="363px" PageSize="14">
+            <asp:GridView ID="grdSeleccionar" runat="server" AllowPaging="True" CellPadding="4" ForeColor="#333333" GridLines="None" Height="363px" PageSize="14" AutoGenerateSelectButton="True">
                 <AlternatingRowStyle BackColor="White" />
                 <EditRowStyle BackColor="#7C6F57" />
                 <FooterStyle BackColor="#1C5E55" Font-Bold="True" ForeColor="White" />

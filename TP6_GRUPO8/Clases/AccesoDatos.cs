@@ -42,7 +42,9 @@ namespace TP6_GRUPO8.Clases
             SqlConnection conexion = new SqlConnection(rutaBdNeptuno);
             conexion.Open();
             SqlCommand cmd = new SqlCommand(consultaSQL, conexion);
-            //completar la funcion
+            int filas = cmd.ExecuteNonQuery();
+            conexion.Close();
+            return filas;
         }
     }
 }

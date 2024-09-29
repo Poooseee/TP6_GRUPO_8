@@ -24,7 +24,7 @@ namespace TP6_GRUPO8.Clases
 
         public DataTable obtenerTodosLosProductos()
         {
-            return obtenerTabla("Neptuno", "Select * From Productos");
+            return obtenerTabla("Select * From Productos", "Data Source=localhost\\sqlexpress;Initial Catalog=Neptuno;Integrated Security=True;Encrypt=False");
         }
 
     }
