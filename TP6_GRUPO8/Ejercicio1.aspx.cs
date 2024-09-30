@@ -12,28 +12,40 @@ namespace TP6_GRUPO8
     public partial class Ejercicio1 : System.Web.UI.Page
     {
         GestionProductos gp = new GestionProductos();
-        string consulta = "SELECT IdProducto, NombreProducto, CantidadPorUnidad, PrecioUnidad FROM Productos";
+       
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!IsPostBack)
             {
-                grdProductos.DataSource = gp.obtenerTabla(consulta, "grdProductos");
-                grdProductos.DataBind();
+                cargarGridView();
             }
         }
 
+      public void cargarGridView()
+        {
+           grdProductos.DataSource = gp.obtenerTodosLosProductos();
+           grdProductos.DataBind();
+        }
         protected void grdProductos_RowEditing(object sender, GridViewEditEventArgs e)
         {
             grdProductos.EditIndex = e.NewEditIndex;
-            grdProductos.DataSource = gp.obtenerTabla(consulta, "grdProductos");
-            grdProductos.DataBind();
+            cargarGridView();
         }
 
         protected void grdProductos_RowCancelingEdit(object sender, GridViewCancelEditEventArgs e)
         {
             grdProductos.EditIndex = -1;
-            grdProductos.DataSource = gp.obtenerTabla(consulta, "grdProductos");
-            grdProductos.DataBind();
+            cargarGridView();
+        }
+
+        protected void grdProductos_RowUpdating(object sender, GridViewUpdateEventArgs e)
+        {
+            Producto pr = new Producto();  
+            pr.idProducto = Convert.ToInt32(((Label)grdProductos.Rows[e.RowIndex].FindControl("lbl_eit_IdProducto")).Text);
+            pr.nombreProducto = ((TextBox)grdProductos.Rows[e.RowIndex].FindControl("txt_eit_NombreProducto")).Text;
+            pr.cantidadXunidad = ((TextBox)grdProductos.Rows[e.RowIndex].FindControl("txt_eit_CantidadPorUnidad")).Text;
+            pr.precioXunidad = Convert.ToDecimal(((TextBox)grdProductos.Rows[e.RowIndex].FindControl("txt_eit_PrecioUnidad")).Text);
+
         }
     }
 }

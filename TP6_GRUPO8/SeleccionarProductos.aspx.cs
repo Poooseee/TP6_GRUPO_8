@@ -12,16 +12,20 @@ namespace TP6_GRUPO8
     public partial class SeleccionarProductos : System.Web.UI.Page
     {
         GestionProductos gp = new GestionProductos();
-        string consulta = "SELECT IdProducto, NombreProducto, IdProveedor, PrecioUnidad FROM Productos";
+        
         protected void Page_Load(object sender, EventArgs e)
         {
             if(!IsPostBack)
             {
-                grdSeleccionar.DataSource = gp.obtenerTabla(consulta, "grdProductos");
-                grdSeleccionar.DataBind();
+                cargarGridView();
+                
             }
         }
-
+        public void cargarGridView()
+        {
+            grdSeleccionar.DataSource = gp.obtenerTodosLosProductos();
+            grdSeleccionar.DataBind();
+        }
         protected void grdSeleccionar_SelectedIndexChanged(object sender, EventArgs e)
         {
             GestionProductos gp = new GestionProductos();
