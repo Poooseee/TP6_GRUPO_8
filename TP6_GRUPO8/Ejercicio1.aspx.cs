@@ -28,5 +28,12 @@ namespace TP6_GRUPO8
             grdProductos.DataSource = gp.obtenerTabla(consulta, "grdProductos");
             grdProductos.DataBind();
         }
+
+        protected void grdProductos_RowCancelingEdit(object sender, GridViewCancelEditEventArgs e)
+        {
+            grdProductos.EditIndex = -1;
+            grdProductos.DataSource = gp.obtenerTabla(consulta, "grdProductos");
+            grdProductos.DataBind();
+        }
     }
 }

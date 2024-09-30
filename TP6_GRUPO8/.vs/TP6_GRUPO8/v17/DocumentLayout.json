@@ -1,34 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Administrator\\Downloads\\TP6_GRUPO_8\\TP6_GRUPO8\\",
+  "WorkspaceRootPath": "C:\\Users\\alejo\\OneDrive\\Documentos\\GitHub\\TP6_GRUPO_8\\TP6_GRUPO8\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E2E444D4-1A9A-4794-9451-EB4C3CBACCC9}|TP6_GRUPO8.csproj|c:\\users\\administrator\\downloads\\tp6_grupo_8\\tp6_grupo8\\inicio.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{E2E444D4-1A9A-4794-9451-EB4C3CBACCC9}|TP6_GRUPO8.csproj|c:\\users\\alejo\\onedrive\\documentos\\github\\tp6_grupo_8\\tp6_grupo8\\inicio.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{E2E444D4-1A9A-4794-9451-EB4C3CBACCC9}|TP6_GRUPO8.csproj|solutionrelative:inicio.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2E444D4-1A9A-4794-9451-EB4C3CBACCC9}|TP6_GRUPO8.csproj|c:\\users\\administrator\\downloads\\tp6_grupo_8\\tp6_grupo8\\ejercicio1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2E444D4-1A9A-4794-9451-EB4C3CBACCC9}|TP6_GRUPO8.csproj|solutionrelative:ejercicio1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E2E444D4-1A9A-4794-9451-EB4C3CBACCC9}|TP6_GRUPO8.csproj|c:\\users\\alejo\\onedrive\\documentos\\github\\tp6_grupo_8\\tp6_grupo8\\mostrarproductos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{E2E444D4-1A9A-4794-9451-EB4C3CBACCC9}|TP6_GRUPO8.csproj|solutionrelative:mostrarproductos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2E444D4-1A9A-4794-9451-EB4C3CBACCC9}|TP6_GRUPO8.csproj|c:\\users\\administrator\\downloads\\tp6_grupo_8\\tp6_grupo8\\seleccionarproductos.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2E444D4-1A9A-4794-9451-EB4C3CBACCC9}|TP6_GRUPO8.csproj|solutionrelative:seleccionarproductos.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E2E444D4-1A9A-4794-9451-EB4C3CBACCC9}|TP6_GRUPO8.csproj|c:\\users\\alejo\\onedrive\\documentos\\github\\tp6_grupo_8\\tp6_grupo8\\ejercicio2.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2E444D4-1A9A-4794-9451-EB4C3CBACCC9}|TP6_GRUPO8.csproj|solutionrelative:ejercicio2.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2E444D4-1A9A-4794-9451-EB4C3CBACCC9}|TP6_GRUPO8.csproj|C:\\Users\\Administrator\\Downloads\\TP6_GRUPO_8\\TP6_GRUPO8\\ejercicio1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{E2E444D4-1A9A-4794-9451-EB4C3CBACCC9}|TP6_GRUPO8.csproj|solutionrelative:ejercicio1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2E444D4-1A9A-4794-9451-EB4C3CBACCC9}|TP6_GRUPO8.csproj|C:\\Users\\Administrator\\Downloads\\TP6_GRUPO_8\\TP6_GRUPO8\\ejercicio2.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{E2E444D4-1A9A-4794-9451-EB4C3CBACCC9}|TP6_GRUPO8.csproj|c:\\users\\alejo\\onedrive\\documentos\\github\\tp6_grupo_8\\tp6_grupo8\\ejercicio2.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{E2E444D4-1A9A-4794-9451-EB4C3CBACCC9}|TP6_GRUPO8.csproj|solutionrelative:ejercicio2.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2E444D4-1A9A-4794-9451-EB4C3CBACCC9}|TP6_GRUPO8.csproj|c:\\users\\administrator\\downloads\\tp6_grupo_8\\tp6_grupo8\\seleccionarproductos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{E2E444D4-1A9A-4794-9451-EB4C3CBACCC9}|TP6_GRUPO8.csproj|c:\\users\\alejo\\onedrive\\documentos\\github\\tp6_grupo_8\\tp6_grupo8\\mostrarproductos.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2E444D4-1A9A-4794-9451-EB4C3CBACCC9}|TP6_GRUPO8.csproj|solutionrelative:mostrarproductos.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2E444D4-1A9A-4794-9451-EB4C3CBACCC9}|TP6_GRUPO8.csproj|c:\\users\\alejo\\onedrive\\documentos\\github\\tp6_grupo_8\\tp6_grupo8\\seleccionarproductos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{E2E444D4-1A9A-4794-9451-EB4C3CBACCC9}|TP6_GRUPO8.csproj|solutionrelative:seleccionarproductos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2E444D4-1A9A-4794-9451-EB4C3CBACCC9}|TP6_GRUPO8.csproj|c:\\users\\administrator\\downloads\\tp6_grupo_8\\tp6_grupo8\\clases\\gestionproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2E444D4-1A9A-4794-9451-EB4C3CBACCC9}|TP6_GRUPO8.csproj|solutionrelative:clases\\gestionproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E2E444D4-1A9A-4794-9451-EB4C3CBACCC9}|TP6_GRUPO8.csproj|c:\\users\\alejo\\onedrive\\documentos\\github\\tp6_grupo_8\\tp6_grupo8\\seleccionarproductos.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2E444D4-1A9A-4794-9451-EB4C3CBACCC9}|TP6_GRUPO8.csproj|solutionrelative:seleccionarproductos.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,97 +38,101 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Ejercicio1.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Downloads\\TP6_GRUPO_8\\TP6_GRUPO8\\Ejercicio1.aspx.cs",
-              "RelativeDocumentMoniker": "Ejercicio1.aspx.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Downloads\\TP6_GRUPO_8\\TP6_GRUPO8\\Ejercicio1.aspx.cs",
-              "RelativeToolTip": "Ejercicio1.aspx.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAiwBwAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T15:24:49.687Z",
+              "DocumentIndex": 0,
+              "Title": "Inicio.aspx",
+              "DocumentMoniker": "C:\\Users\\alejo\\OneDrive\\Documentos\\GitHub\\TP6_GRUPO_8\\TP6_GRUPO8\\Inicio.aspx",
+              "RelativeDocumentMoniker": "Inicio.aspx",
+              "ToolTip": "C:\\Users\\alejo\\OneDrive\\Documentos\\GitHub\\TP6_GRUPO_8\\TP6_GRUPO8\\Inicio.aspx",
+              "RelativeToolTip": "Inicio.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-09-30T17:37:09.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Ejercicio2.aspx",
+              "DocumentMoniker": "C:\\Users\\alejo\\OneDrive\\Documentos\\GitHub\\TP6_GRUPO_8\\TP6_GRUPO8\\Ejercicio2.aspx",
+              "RelativeDocumentMoniker": "Ejercicio2.aspx",
+              "ToolTip": "C:\\Users\\alejo\\OneDrive\\Documentos\\GitHub\\TP6_GRUPO_8\\TP6_GRUPO8\\Ejercicio2.aspx",
+              "RelativeToolTip": "Ejercicio2.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-09-30T17:30:33.444Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "SeleccionarProductos.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Downloads\\TP6_GRUPO_8\\TP6_GRUPO8\\SeleccionarProductos.aspx.cs",
-              "RelativeDocumentMoniker": "SeleccionarProductos.aspx.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Downloads\\TP6_GRUPO_8\\TP6_GRUPO8\\SeleccionarProductos.aspx.cs",
-              "RelativeToolTip": "SeleccionarProductos.aspx.cs",
-              "ViewState": "AQIAACgAAAAAAAAAAAAUwA4AAABoAAAA",
+              "Title": "Ejercicio2.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\alejo\\OneDrive\\Documentos\\GitHub\\TP6_GRUPO_8\\TP6_GRUPO8\\Ejercicio2.aspx.cs",
+              "RelativeDocumentMoniker": "Ejercicio2.aspx.cs",
+              "ToolTip": "C:\\Users\\alejo\\OneDrive\\Documentos\\GitHub\\TP6_GRUPO_8\\TP6_GRUPO8\\Ejercicio2.aspx.cs",
+              "RelativeToolTip": "Ejercicio2.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T14:44:46.704Z",
+              "WhenOpened": "2024-09-30T17:30:26.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MostrarProductos.aspx",
+              "DocumentMoniker": "C:\\Users\\alejo\\OneDrive\\Documentos\\GitHub\\TP6_GRUPO_8\\TP6_GRUPO8\\MostrarProductos.aspx",
+              "RelativeDocumentMoniker": "MostrarProductos.aspx",
+              "ToolTip": "C:\\Users\\alejo\\OneDrive\\Documentos\\GitHub\\TP6_GRUPO_8\\TP6_GRUPO8\\MostrarProductos.aspx",
+              "RelativeToolTip": "MostrarProductos.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-09-30T17:25:57.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MostrarProductos.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\alejo\\OneDrive\\Documentos\\GitHub\\TP6_GRUPO_8\\TP6_GRUPO8\\MostrarProductos.aspx.cs",
+              "RelativeDocumentMoniker": "MostrarProductos.aspx.cs",
+              "ToolTip": "C:\\Users\\alejo\\OneDrive\\Documentos\\GitHub\\TP6_GRUPO_8\\TP6_GRUPO8\\MostrarProductos.aspx.cs",
+              "RelativeToolTip": "MostrarProductos.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T17:25:51.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SeleccionarProductos.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\alejo\\OneDrive\\Documentos\\GitHub\\TP6_GRUPO_8\\TP6_GRUPO8\\SeleccionarProductos.aspx.cs",
+              "RelativeDocumentMoniker": "SeleccionarProductos.aspx.cs",
+              "ToolTip": "C:\\Users\\alejo\\OneDrive\\Documentos\\GitHub\\TP6_GRUPO_8\\TP6_GRUPO8\\SeleccionarProductos.aspx.cs",
+              "RelativeToolTip": "SeleccionarProductos.aspx.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAqwEYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T17:19:23.236Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "SeleccionarProductos.aspx",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Downloads\\TP6_GRUPO_8\\TP6_GRUPO8\\SeleccionarProductos.aspx",
+              "DocumentMoniker": "C:\\Users\\alejo\\OneDrive\\Documentos\\GitHub\\TP6_GRUPO_8\\TP6_GRUPO8\\SeleccionarProductos.aspx",
               "RelativeDocumentMoniker": "SeleccionarProductos.aspx",
-              "ToolTip": "C:\\Users\\Administrator\\Downloads\\TP6_GRUPO_8\\TP6_GRUPO8\\SeleccionarProductos.aspx",
+              "ToolTip": "C:\\Users\\alejo\\OneDrive\\Documentos\\GitHub\\TP6_GRUPO_8\\TP6_GRUPO8\\SeleccionarProductos.aspx",
               "RelativeToolTip": "SeleccionarProductos.aspx",
               "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-09-29T20:56:34.522Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "GestionProductos.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Downloads\\TP6_GRUPO_8\\TP6_GRUPO8\\Clases\\GestionProductos.cs",
-              "RelativeDocumentMoniker": "Clases\\GestionProductos.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Downloads\\TP6_GRUPO_8\\TP6_GRUPO8\\Clases\\GestionProductos.cs",
-              "RelativeToolTip": "Clases\\GestionProductos.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T14:44:35.516Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Inicio.aspx",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Downloads\\TP6_GRUPO_8\\TP6_GRUPO8\\Inicio.aspx",
-              "RelativeDocumentMoniker": "Inicio.aspx",
-              "ToolTip": "C:\\Users\\Administrator\\Downloads\\TP6_GRUPO_8\\TP6_GRUPO8\\Inicio.aspx",
-              "RelativeToolTip": "Inicio.aspx",
-              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-09-30T14:25:18.626Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Ejercicio1.aspx",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Downloads\\TP6_GRUPO_8\\TP6_GRUPO8\\Ejercicio1.aspx",
-              "RelativeDocumentMoniker": "Ejercicio1.aspx",
-              "ToolTip": "C:\\Users\\Administrator\\Downloads\\TP6_GRUPO_8\\TP6_GRUPO8\\Ejercicio1.aspx*",
-              "RelativeToolTip": "Ejercicio1.aspx*",
-              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-09-29T20:59:42.033Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Ejercicio2.aspx",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Downloads\\TP6_GRUPO_8\\TP6_GRUPO8\\Ejercicio2.aspx",
-              "RelativeDocumentMoniker": "Ejercicio2.aspx",
-              "ToolTip": "C:\\Users\\Administrator\\Downloads\\TP6_GRUPO_8\\TP6_GRUPO8\\Ejercicio2.aspx",
-              "RelativeToolTip": "Ejercicio2.aspx",
-              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-09-29T20:41:37.808Z",
+              "WhenOpened": "2024-09-30T17:15:09.793Z",
               "EditorCaption": ""
             }
           ]

@@ -34,8 +34,8 @@ namespace TP6_GRUPO8
 
             if(selectedRow != null)
             {
-                nombreProducto = selectedRow.Cells[2].Text;
                 idProducto = Convert.ToInt32(selectedRow.Cells[1].Text);
+                nombreProducto = selectedRow.Cells[2].Text;
                 idProveedor = Convert.ToInt32(selectedRow.Cells[3].Text);
                 precioUnidad = Convert.ToDecimal(selectedRow.Cells[4].Text);
                 lblMensaje.Text = nombreProducto;
@@ -54,7 +54,8 @@ namespace TP6_GRUPO8
                 dt.Columns.Add("IdProducto" , typeof(int));
                 dt.Columns.Add("NombreProducto" , typeof(String));
                 dt.Columns.Add("IdProveedor" , typeof(int));
-                dt.Columns.Add("PrecioUnidad" , typeof(decimal));            }
+                dt.Columns.Add("PrecioUnidad" , typeof(decimal));            
+            }
             else
             {
                 dt = (DataTable)Session["ProductosSeleccionados"];

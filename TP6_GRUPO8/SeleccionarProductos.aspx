@@ -43,7 +43,7 @@
                         <asp:Label ID="lblMensaje" runat="server"></asp:Label>
                     </td>
                     <td>
-                        <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Inicio.aspx">Volver al Inicio</asp:HyperLink>
+                        <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Ejercicio2.aspx">Volver al Inicio</asp:HyperLink>
                     </td>
                 </tr>
             </table>
