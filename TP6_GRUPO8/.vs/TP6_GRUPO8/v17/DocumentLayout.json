@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\Fede\\Desktop\\Nueva carpeta (3)\\TP6_GRUPO_8\\TP6_GRUPO8\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E2E444D4-1A9A-4794-9451-EB4C3CBACCC9}|TP6_GRUPO8.csproj|C:\\Users\\Fede\\Desktop\\Nueva carpeta (3)\\TP6_GRUPO_8\\TP6_GRUPO8\\clases\\gestionproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E2E444D4-1A9A-4794-9451-EB4C3CBACCC9}|TP6_GRUPO8.csproj|c:\\users\\fede\\desktop\\nueva carpeta (3)\\tp6_grupo_8\\tp6_grupo8\\clases\\gestionproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E2E444D4-1A9A-4794-9451-EB4C3CBACCC9}|TP6_GRUPO8.csproj|solutionrelative:clases\\gestionproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,7 +11,7 @@
       "RelativeMoniker": "D:0:0:{E2E444D4-1A9A-4794-9451-EB4C3CBACCC9}|TP6_GRUPO8.csproj|solutionrelative:clases\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2E444D4-1A9A-4794-9451-EB4C3CBACCC9}|TP6_GRUPO8.csproj|c:\\users\\fede\\desktop\\nueva carpeta (3)\\tp6_grupo_8\\tp6_grupo8\\ejercicio1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E2E444D4-1A9A-4794-9451-EB4C3CBACCC9}|TP6_GRUPO8.csproj|C:\\Users\\Fede\\Desktop\\Nueva carpeta (3)\\TP6_GRUPO_8\\TP6_GRUPO8\\ejercicio1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E2E444D4-1A9A-4794-9451-EB4C3CBACCC9}|TP6_GRUPO8.csproj|solutionrelative:ejercicio1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -23,7 +23,7 @@
       "RelativeMoniker": "D:0:0:{E2E444D4-1A9A-4794-9451-EB4C3CBACCC9}|TP6_GRUPO8.csproj|solutionrelative:ejercicio2.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2E444D4-1A9A-4794-9451-EB4C3CBACCC9}|TP6_GRUPO8.csproj|c:\\users\\fede\\desktop\\nueva carpeta (3)\\tp6_grupo_8\\tp6_grupo8\\ejercicio2.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E2E444D4-1A9A-4794-9451-EB4C3CBACCC9}|TP6_GRUPO8.csproj|C:\\Users\\Fede\\Desktop\\Nueva carpeta (3)\\TP6_GRUPO_8\\TP6_GRUPO8\\ejercicio2.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E2E444D4-1A9A-4794-9451-EB4C3CBACCC9}|TP6_GRUPO8.csproj|solutionrelative:ejercicio2.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -54,8 +54,7 @@
               "RelativeToolTip": "Ejercicio1.aspx",
               "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-09-30T19:57:25.597Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-30T19:57:25.597Z"
             },
             {
               "$type": "Document",
@@ -67,8 +66,7 @@
               "RelativeToolTip": "Ejercicio1.aspx.cs",
               "ViewState": "AQIAACAAAAAAAAAAAAAqwDUAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T20:50:39.166Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-01T20:50:39.166Z"
             },
             {
               "$type": "Document",
@@ -80,8 +78,7 @@
               "RelativeToolTip": "Ejercicio2.aspx",
               "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-09-30T19:50:09.146Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-30T19:50:09.146Z"
             },
             {
               "$type": "Document",
@@ -93,8 +90,7 @@
               "RelativeToolTip": "Clases\\AccesoDatos.cs",
               "ViewState": "AQIAACEAAAAAAAAAAAAowC8AAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T19:24:49.499Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-30T19:24:49.499Z"
             },
             {
               "$type": "Document",
@@ -104,7 +100,7 @@
               "RelativeDocumentMoniker": "Clases\\GestionProductos.cs",
               "ToolTip": "C:\\Users\\Fede\\Desktop\\Nueva carpeta (3)\\TP6_GRUPO_8\\TP6_GRUPO8\\Clases\\GestionProductos.cs",
               "RelativeToolTip": "Clases\\GestionProductos.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAcwBwAAAALAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAA0wBwAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-30T19:25:33.621Z",
               "EditorCaption": ""
@@ -119,8 +115,7 @@
               "RelativeToolTip": "SeleccionarProductos.aspx.cs",
               "ViewState": "AQIAABsAAAAAAAAAAAAswDUAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T19:51:19.759Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-30T19:51:19.759Z"
             },
             {
               "$type": "Document",
@@ -132,8 +127,7 @@
               "RelativeToolTip": "Ejercicio2.aspx.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T20:04:21.491Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-30T20:04:21.491Z"
             },
             {
               "$type": "Document",
@@ -145,8 +139,7 @@
               "RelativeToolTip": "SeleccionarProductos.aspx",
               "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-09-30T19:51:11.085Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-30T19:51:11.085Z"
             }
           ]
         }
