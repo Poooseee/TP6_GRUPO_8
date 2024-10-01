@@ -53,5 +53,19 @@ namespace TP6_GRUPO8.Clases
             adaptador.Fill(ds, "nombreTabla");
             return ds.Tables["nombreTabla"];
         }
+
+        public int ejecutarProcedimientoAlmacenado(SqlCommand comando, String NombreSP)
+        {
+            int filasCambiadas;
+            SqlConnection conexion = obtenerConexion();
+            SqlCommand cmd = new SqlCommand();
+            cmd = comando;
+            cmd.Connection = conexion;
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.CommandText = NombreSP;
+            filasCambiadas = cmd.ExecuteNonQuery();
+            conexion.Close();
+            return filasCambiadas;
+        }
     }
 }
