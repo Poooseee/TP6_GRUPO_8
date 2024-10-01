@@ -47,5 +47,11 @@ namespace TP6_GRUPO8
             pr.precioXunidad = Convert.ToDecimal(((TextBox)grdProductos.Rows[e.RowIndex].FindControl("txt_eit_PrecioUnidad")).Text);
 
         }
+
+        protected void grdProductos_RowDeleting(object sender, GridViewDeleteEventArgs e)
+        {
+            string consulta = "SELECT IdProducto, NombreProducto,IdProveedor, CantidadPorUnidad, PrecioUnidad FROM Productos";
+            return datos.obtenerTabla(consulta, "Productos");
+        }
     }
 }

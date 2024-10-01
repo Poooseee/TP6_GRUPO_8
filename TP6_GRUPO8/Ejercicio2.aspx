@@ -20,6 +20,9 @@
             <br />
             <br />
             <asp:HyperLink ID="hlMostrarProductos" runat="server" NavigateUrl="~/MostrarProductos.aspx">Mostrar Productos</asp:HyperLink>
+            <br />
+            <br />
+            <asp:HyperLink ID="HpInicio2" runat="server" NavigateUrl="~/Inicio.aspx">Volver Atras</asp:HyperLink>
         </div>
     </form>
 </body>

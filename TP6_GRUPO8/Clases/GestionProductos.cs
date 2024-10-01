@@ -23,5 +23,10 @@ namespace TP6_GRUPO8.Clases
             return  datos.obtenerTabla(consulta,"Productos");
         }
 
+       //public int EliminarProducto() {
+
+          //  string consulta
+         //       }
+
     }
 }
