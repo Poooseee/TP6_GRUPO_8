@@ -21,7 +21,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <asp:GridView ID="grdSeleccionar" runat="server" AllowPaging="True" CellPadding="4" ForeColor="#333333" GridLines="None" Height="363px" PageSize="14" AutoGenerateSelectButton="True" OnSelectedIndexChanged="grdSeleccionar_SelectedIndexChanged" AutoGenerateColumns="False">
+            <asp:GridView ID="grdSeleccionar" runat="server" AllowPaging="True" CellPadding="4" ForeColor="#333333" GridLines="None" Height="363px" PageSize="14" AutoGenerateSelectButton="True" OnSelectedIndexChanged="grdSeleccionar_SelectedIndexChanged" AutoGenerateColumns="False" OnPageIndexChanging="grdSeleccionar_PageIndexChanging">
                 <AlternatingRowStyle BackColor="White" />
                 <Columns>
                     <asp:TemplateField HeaderText="Id Producto">

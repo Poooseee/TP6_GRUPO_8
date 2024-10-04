@@ -38,10 +38,11 @@ namespace TP6_GRUPO8
 
             if(selectedRow != null)
             {
-                idProducto = Convert.ToInt32(selectedRow.Cells[1].Text);
                 nombreProducto = selectedRow.Cells[2].Text;
                 idProveedor = Convert.ToInt32(selectedRow.Cells[3].Text);
                 precioUnidad = Convert.ToDecimal(selectedRow.Cells[4].Text);
+                idProducto = Convert.ToInt32(selectedRow.Cells[1].Text);
+
                 lblMensaje.Text = nombreProducto;
 
                 agregarProductosASession(idProducto, nombreProducto, idProveedor, precioUnidad);
@@ -73,6 +74,13 @@ namespace TP6_GRUPO8
 
             dt.Rows.Add(newRow);
             Session["ProductosSeleccionados"] = dt;
+        }
+
+        
+        protected void grdSeleccionar_PageIndexChanging(object sender, GridViewPageEventArgs e)
+        {
+            grdSeleccionar.PageIndex = e.NewPageIndex;
+            cargarGridView();
         }
     }
 }

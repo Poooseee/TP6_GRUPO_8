@@ -39,10 +39,13 @@ namespace TP6_GRUPO8.Clases
 
         public bool ActualizarProducto(Producto prod)
         {
+            /*
             SqlCommand comando = new SqlCommand();
             armarParametros(ref comando, prod);
 
             //completar
+            */
+            return false; //borrar
         }
 
         public bool EliminarProducto(Producto prod)
