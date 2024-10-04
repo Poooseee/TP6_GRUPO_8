@@ -28,28 +28,11 @@ namespace TP6_GRUPO8
         }
         protected void grdSeleccionar_SelectedIndexChanged(object sender, EventArgs e)
         {
-            GestionProductos gp = new GestionProductos();
-            GridViewRow selectedRow = grdSeleccionar.SelectedRow;
-
-            string nombreProducto;
-            decimal precioUnidad;
-            int idProveedor;
-            int idProducto;
-
-            if(selectedRow != null)
-            {
-                nombreProducto = selectedRow.Cells[2].Text;
-                idProveedor = Convert.ToInt32(selectedRow.Cells[3].Text);
-                precioUnidad = Convert.ToDecimal(selectedRow.Cells[4].Text);
-                idProducto = Convert.ToInt32(selectedRow.Cells[1].Text);
-
-                lblMensaje.Text = nombreProducto;
-
-                agregarProductosASession(idProducto, nombreProducto, idProveedor, precioUnidad);
-            }
+           
+            
         }
 
-        public void agregarProductosASession(int idProducto, string nombreProducto, int idProveedor , decimal precioUnidad)
+        public void agregarProductosASession(Producto pr)
         {
             DataTable dt;
             if (Session["ProductosSeleccionados"] == null)
@@ -67,10 +50,10 @@ namespace TP6_GRUPO8
             }
 
             DataRow newRow = dt.NewRow();
-            newRow["IdProducto"] = idProducto;
-            newRow["NombreProducto"] = nombreProducto;
-            newRow["IdProveedor"] = idProveedor;
-            newRow["PrecioUnidad"] = precioUnidad;
+            newRow["IdProducto"] = pr.idProducto;
+            newRow["NombreProducto"] = pr.nombreProducto ;
+            newRow["IdProveedor"] = pr.idProveedor;
+            newRow["PrecioUnidad"] = pr.precioXunidad;
 
             dt.Rows.Add(newRow);
             Session["ProductosSeleccionados"] = dt;
@@ -81,6 +64,28 @@ namespace TP6_GRUPO8
         {
             grdSeleccionar.PageIndex = e.NewPageIndex;
             cargarGridView();
+        }
+
+        protected void grdSeleccionar_SelectedIndexChanging(object sender, GridViewSelectEventArgs e)
+        {
+            grdSeleccionar.SelectedIndex = e.NewSelectedIndex;
+            cargarGridView();
+           
+            GridViewRow selectedRow = grdSeleccionar.SelectedRow;
+
+            Producto pr = new Producto();
+
+            if (selectedRow != null)
+            {
+                pr.nombreProducto = ((Label)selectedRow.FindControl("lbl_it_NombreProducto")).Text;
+                pr.idProveedor = Convert.ToInt32(((Label)selectedRow.FindControl("lbl_it_IdProveedor")).Text);
+                pr.precioXunidad = Convert.ToDecimal(((Label)selectedRow.FindControl("lbl_it_PrecioUnitario")).Text);
+                pr.idProducto = Convert.ToInt32(((Label)selectedRow.FindControl("lbl_it_IdProducto")).Text);
+                
+                lblMensaje.Text = pr.nombreProducto;
+
+                agregarProductosASession(pr);
+            }
         }
     }
 }

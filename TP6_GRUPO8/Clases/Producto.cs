@@ -9,6 +9,7 @@ namespace TP6_GRUPO8.Clases
     {
         private int IdProducto;
         private string NombreProducto;
+        private int IdProveedor;
         private string CantidadPorUnidad;
         private decimal PrecioUnidad;
 
@@ -16,10 +17,11 @@ namespace TP6_GRUPO8.Clases
         {
         }
 
-        public Producto(int idProducto, string nombreProducto, string cantidadPorUnidad, decimal precioUnidad)
+        public Producto(int idProducto, string nombreProducto, int idProveedor, string cantidadPorUnidad, decimal precioUnidad)
         {
             IdProducto = idProducto;
             NombreProducto = nombreProducto;
+            IdProveedor = idProveedor;
             CantidadPorUnidad = cantidadPorUnidad;
             PrecioUnidad = precioUnidad;
         }
@@ -29,7 +31,11 @@ namespace TP6_GRUPO8.Clases
             get { return IdProducto; }
             set { IdProducto = value; }
         }
-
+        public int idProveedor
+        {
+            get { return IdProveedor; }
+            set { IdProveedor = value; }
+        }
         public string nombreProducto
         {
             get { return NombreProducto; }
