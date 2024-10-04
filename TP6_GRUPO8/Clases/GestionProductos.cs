@@ -50,17 +50,53 @@ namespace TP6_GRUPO8.Clases
 
         public bool EliminarProducto(Producto prod)
         {
-            SqlCommand comando = new SqlCommand();
-            armarParametrosEliminar(ref comando, prod);
-            int filasCambiadas = datos.ejecutarProcedimientoAlmacenado(comando, "spEliminarProducto");
-            if (filasCambiadas == 1)
+            // Definir la consulta SQL para eliminar el producto
+            string consulta = "DELETE FROM Productos WHERE idProducto = @idProducto";
+
+            using (SqlConnection conexion = datos.obtenerConexion()) // Usa tu clase de acceso a datos para obtener la conexión
             {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
+                SqlCommand comando = new SqlCommand(consulta, conexion);
+                comando.Parameters.AddWithValue("@idProducto", prod.idProducto);
+
+                try
+                {
+                    conexion.Open();
+                    int filasAfectadas = comando.ExecuteNonQuery();
+
+                    // Si una fila fue afectada, el producto fue eliminado
+                    return filasAfectadas > 0;
+                }
+                catch (Exception ex)
+                {
+                    // Manejar excepciones (registro de errores, etc.)
+                    Console.WriteLine("Error al eliminar el producto: " + ex.Message);
+                    return false;
+                }
+                finally
+                {
+                    // Asegurarse de cerrar la conexión
+                    if (conexion.State == ConnectionState.Open)
+                    {
+                        conexion.Close();
+                    }
+                }
+            
         }
+
+
+        // SqlCommand comando = new SqlCommand();
+        //armarParametrosEliminar(ref comando, prod);
+        //int filasCambiadas = datos.ejecutarProcedimientoAlmacenado(comando, "spEliminarProducto");
+        //if (filasCambiadas == 1)
+        //{
+        //   return true;
+        //}
+        //else
+        //{
+        //  return false;
     }
+
+
+    //  }
+}
 }
