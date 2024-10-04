@@ -49,14 +49,29 @@ namespace TP6_GRUPO8
                 dt = (DataTable)Session["ProductosSeleccionados"];
             }
 
-            DataRow newRow = dt.NewRow();
-            newRow["IdProducto"] = pr.idProducto;
-            newRow["NombreProducto"] = pr.nombreProducto ;
-            newRow["IdProveedor"] = pr.idProveedor;
-            newRow["PrecioUnidad"] = pr.precioXunidad;
+            bool productoAgregado = false;
+            foreach(DataRow row in dt.Rows)
+            {
+                if ((int)row["idProducto"] == pr.idProducto)
+                {
+                    productoAgregado = true;
+                }
+            }
+            if (productoAgregado == true)
+            {
+                lblMensaje.Text = "Este producto ya está seleccionado";
+            }
+            else
+            {
+                DataRow newRow = dt.NewRow();
+                newRow["IdProducto"] = pr.idProducto;
+                newRow["NombreProducto"] = pr.nombreProducto;
+                newRow["IdProveedor"] = pr.idProveedor;
+                newRow["PrecioUnidad"] = pr.precioXunidad;
 
-            dt.Rows.Add(newRow);
-            Session["ProductosSeleccionados"] = dt;
+                dt.Rows.Add(newRow);
+                Session["ProductosSeleccionados"] = dt;
+            }
         }
 
         
