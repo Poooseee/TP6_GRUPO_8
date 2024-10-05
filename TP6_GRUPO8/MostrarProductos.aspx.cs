@@ -11,7 +11,10 @@ namespace TP6_GRUPO8
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            grvProductosSeleccionadosMostrar.DataSource = Session["ProductosSeleccionados"];
+            grvProductosSeleccionadosMostrar.DataBind();
         }
+
+      
     }
 }

@@ -39,12 +39,33 @@ namespace TP6_GRUPO8.Clases
 
         public int ejecutarConsulta(string consultaSQL)
         {
-            SqlConnection conexion = new SqlConnection(rutaBdNeptuno);
-            conexion.Open();
+            SqlConnection conexion = obtenerConexion();
             SqlCommand cmd = new SqlCommand(consultaSQL, conexion);
             int filas = cmd.ExecuteNonQuery();
             conexion.Close();
             return filas;
+        }
+        public DataTable obtenerTabla(string consultaSQL, string nombreTabla)
+        {
+            AccesoDatos datos = new AccesoDatos();
+            SqlDataAdapter adaptador = datos.obtenerAdaptador(consultaSQL);
+            DataSet ds = new DataSet();
+            adaptador.Fill(ds, "nombreTabla");
+            return ds.Tables["nombreTabla"];
+        }
+
+        public int ejecutarProcedimientoAlmacenado(SqlCommand comando, String NombreSP)
+        {
+            int filasCambiadas;
+            SqlConnection conexion = obtenerConexion();
+            SqlCommand cmd = new SqlCommand();
+            cmd = comando;
+            cmd.Connection = conexion;
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.CommandText = NombreSP;
+            filasCambiadas = cmd.ExecuteNonQuery();
+            conexion.Close();
+            return filasCambiadas;
         }
     }
 }
