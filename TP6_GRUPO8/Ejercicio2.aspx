@@ -17,12 +17,14 @@
             <br />
             <br />
             <asp:LinkButton ID="lbEliminarProductos" runat="server" OnClick="lbEliminarProductos_Click">Eliminar Productos Seleccionados</asp:LinkButton>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Label ID="lblEliminado" runat="server"></asp:Label>
             <br />
             <br />
             <asp:HyperLink ID="hlMostrarProductos" runat="server" NavigateUrl="~/MostrarProductos.aspx">Mostrar Productos</asp:HyperLink>
             <br />
             <br />
-            <asp:HyperLink ID="HpInicio2" runat="server" NavigateUrl="~/Inicio.aspx">Volver Atras</asp:HyperLink>
+            <asp:HyperLink ID="HpInicio2" runat="server" NavigateUrl="~/Inicio.aspx">Volver al inicio</asp:HyperLink>
         </div>
     </form>
 </body>

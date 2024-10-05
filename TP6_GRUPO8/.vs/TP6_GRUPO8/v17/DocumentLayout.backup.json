@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\agusp\\OneDrive\\Documentos\\GitHub\\TP6_GRUPO_8\\TP6_GRUPO8\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E2E444D4-1A9A-4794-9451-EB4C3CBACCC9}|TP6_GRUPO8.csproj|C:\\Users\\agusp\\OneDrive\\Documentos\\GitHub\\TP6_GRUPO_8\\TP6_GRUPO8\\ejercicio1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2E444D4-1A9A-4794-9451-EB4C3CBACCC9}|TP6_GRUPO8.csproj|solutionrelative:ejercicio1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2E444D4-1A9A-4794-9451-EB4C3CBACCC9}|TP6_GRUPO8.csproj|c:\\users\\agusp\\onedrive\\documentos\\github\\tp6_grupo_8\\tp6_grupo8\\clases\\gestionproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2E444D4-1A9A-4794-9451-EB4C3CBACCC9}|TP6_GRUPO8.csproj|solutionrelative:clases\\gestionproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2E444D4-1A9A-4794-9451-EB4C3CBACCC9}|TP6_GRUPO8.csproj|c:\\users\\agusp\\onedrive\\documentos\\github\\tp6_grupo_8\\tp6_grupo8\\clases\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2E444D4-1A9A-4794-9451-EB4C3CBACCC9}|TP6_GRUPO8.csproj|solutionrelative:clases\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2E444D4-1A9A-4794-9451-EB4C3CBACCC9}|TP6_GRUPO8.csproj|C:\\Users\\agusp\\OneDrive\\Documentos\\GitHub\\TP6_GRUPO_8\\TP6_GRUPO8\\ejercicio1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{E2E444D4-1A9A-4794-9451-EB4C3CBACCC9}|TP6_GRUPO8.csproj|solutionrelative:ejercicio1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{E2E444D4-1A9A-4794-9451-EB4C3CBACCC9}|TP6_GRUPO8.csproj|c:\\users\\agusp\\onedrive\\documentos\\github\\tp6_grupo_8\\tp6_grupo8\\mostrarproductos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{E2E444D4-1A9A-4794-9451-EB4C3CBACCC9}|TP6_GRUPO8.csproj|solutionrelative:mostrarproductos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AccesoDatos.cs",
-              "DocumentMoniker": "C:\\Users\\agusp\\OneDrive\\Documentos\\GitHub\\TP6_GRUPO_8\\TP6_GRUPO8\\Clases\\AccesoDatos.cs",
-              "RelativeDocumentMoniker": "Clases\\AccesoDatos.cs",
-              "ToolTip": "C:\\Users\\agusp\\OneDrive\\Documentos\\GitHub\\TP6_GRUPO_8\\TP6_GRUPO8\\Clases\\AccesoDatos.cs",
-              "RelativeToolTip": "Clases\\AccesoDatos.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAAAEQAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T01:56:23.874Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GestionProductos.cs",
-              "DocumentMoniker": "C:\\Users\\agusp\\OneDrive\\Documentos\\GitHub\\TP6_GRUPO_8\\TP6_GRUPO8\\Clases\\GestionProductos.cs",
-              "RelativeDocumentMoniker": "Clases\\GestionProductos.cs",
-              "ToolTip": "C:\\Users\\agusp\\OneDrive\\Documentos\\GitHub\\TP6_GRUPO_8\\TP6_GRUPO8\\Clases\\GestionProductos.cs",
-              "RelativeToolTip": "Clases\\GestionProductos.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T01:46:17.363Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Ejercicio1.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\agusp\\OneDrive\\Documentos\\GitHub\\TP6_GRUPO_8\\TP6_GRUPO8\\Ejercicio1.aspx.cs",
-              "RelativeDocumentMoniker": "Ejercicio1.aspx.cs",
-              "ToolTip": "C:\\Users\\agusp\\OneDrive\\Documentos\\GitHub\\TP6_GRUPO_8\\TP6_GRUPO8\\Ejercicio1.aspx.cs",
-              "RelativeToolTip": "Ejercicio1.aspx.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAADgAAABYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T22:15:01.404Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Ejercicio1.aspx",
-              "DocumentMoniker": "C:\\Users\\agusp\\OneDrive\\Documentos\\GitHub\\TP6_GRUPO_8\\TP6_GRUPO8\\Ejercicio1.aspx",
-              "RelativeDocumentMoniker": "Ejercicio1.aspx",
-              "ToolTip": "C:\\Users\\agusp\\OneDrive\\Documentos\\GitHub\\TP6_GRUPO_8\\TP6_GRUPO8\\Ejercicio1.aspx",
-              "RelativeToolTip": "Ejercicio1.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Title": "MostrarProductos.aspx",
+              "DocumentMoniker": "C:\\Users\\agusp\\OneDrive\\Documentos\\GitHub\\TP6_GRUPO_8\\TP6_GRUPO8\\MostrarProductos.aspx",
+              "RelativeDocumentMoniker": "MostrarProductos.aspx",
+              "ToolTip": "C:\\Users\\agusp\\OneDrive\\Documentos\\GitHub\\TP6_GRUPO_8\\TP6_GRUPO8\\MostrarProductos.aspx",
+              "RelativeToolTip": "MostrarProductos.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-10-04T22:14:58.158Z",
+              "WhenOpened": "2024-10-05T22:29:08.796Z",
               "EditorCaption": ""
             }
           ]

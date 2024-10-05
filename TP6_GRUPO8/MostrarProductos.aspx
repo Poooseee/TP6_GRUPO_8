@@ -26,6 +26,9 @@
                 <SortedDescendingCellStyle BackColor="#D4DFE1" />
                 <SortedDescendingHeaderStyle BackColor="#15524A" />
             </asp:GridView>
+            <br />
+            <br />
+            <asp:HyperLink ID="lnkVolver" runat="server" NavigateUrl="~/Ejercicio2.aspx">Volver atrás</asp:HyperLink>
         </div>
     </form>
 </body>

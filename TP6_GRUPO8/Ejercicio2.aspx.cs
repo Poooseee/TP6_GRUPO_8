@@ -11,11 +11,19 @@ namespace TP6_GRUPO8
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            lblEliminado.Text = "";
         }
 
         protected void lbEliminarProductos_Click(object sender, EventArgs e)
         {
+            if(Session["ProductosSeleccionados"] != null)
+            {
+                lblEliminado.Text = "Se han eliminado los productos seleccionados.";
+            }
+            else
+            {
+                lblEliminado.Text = "No hay productos seleccionados ha eliminar";
+            }
             Session["ProductosSeleccionados"] = null;
         }
     }
